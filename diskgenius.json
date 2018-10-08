@@ -1,0 +1,34 @@
+{
+    "version": "5.0.0.589",
+    "license": "Shareware",
+    "homepage": "http://www.diskgenius.cn",
+    "architecture": {
+        "64bit": {
+            "url": "http://download.eassos.cn/DG500589_x64.zip",
+            "hash": "45af411b7291fb21dd08183507f0be7a55eb430b2fda7196a02ca9f4fca5ac0c",
+            "extract_dir": "DiskGenius"
+            
+        },
+        "32bit": {
+            "url": "http://download.eassos.cn/DG500589_x86.zip",
+            "hash": "9fbdca8fecaafdc390bdd59de808470214cc510a92f01ffd1ab0934cf22390ba",
+            "extract_dir": "DiskGenius"
+        }
+    },
+    "bin": "DiskGenius.exe",
+    "checkver": {
+        "url": "http://www.diskgenius.cn/download.php",
+        "re": "\\[V([\\d.]+)\\]"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://download.eassos.cn/DG$cleanVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "http://download.eassos.cn/DG$cleanVersion_x86.zip"
+            }
+        }
+    }
+}
+
