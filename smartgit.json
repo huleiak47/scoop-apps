@@ -3,20 +3,13 @@
     "license": "Shareware",
     "homepage": "https://www.syntevo.com/smartgit",
     "description": "",
-    "architecture": {
-        "64bit": {
-            "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-18_1_5.7z",
-            "hash": "cdd20a268e02e0eaa4d3b32be10b9396112318655eb209cdb6acb4715136cd94",
-            "extract_dir": "SmartGit",
-            "bin": ["bin/smartgit.exe", "smartgit"]
-        },
-        "32bit": {
-            "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-18_1_5.7z",
-            "hash": "cdd20a268e02e0eaa4d3b32be10b9396112318655eb209cdb6acb4715136cd94",
-            "extract_dir": "SmartGit",
-            "bin": ["bin/smartgit32.exe", "smartgit"]
-        }
-    },
+    "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-18_1_5.7z",
+    "hash": "cdd20a268e02e0eaa4d3b32be10b9396112318655eb209cdb6acb4715136cd94",
+    "extract_dir": "SmartGit",
+    "bin": [
+        ["bin\\smartgit32.exe", "smartgit32"],
+        ["bin\\smartgit.exe", "smartgit"]
+    ],
     "persist" : [
         ".settings"
     ],
@@ -28,13 +21,6 @@
         "re": "SmartGit ([\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-$underscoreVersion.7z"
-            },
-            "32bit": {
-                "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-$underscoreVersion.7z"
-            }
-        }
+        "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-$underscoreVersion.7z"
     }
 }
