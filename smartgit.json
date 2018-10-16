@@ -2,7 +2,7 @@
     "version": "18.1.5",
     "license": "Shareware",
     "homepage": "https://www.syntevo.com/smartgit",
-    "description": "",
+    "description": "SmartGit is a graphical Git client with support for SVN and Pull Requests for GitHub and Bitbucket. SmartGit runs on Windows, macOS and Linux.",
     "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-18_1_5.7z",
     "hash": "cdd20a268e02e0eaa4d3b32be10b9396112318655eb209cdb6acb4715136cd94",
     "extract_dir": "SmartGit",
