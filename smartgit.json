@@ -1,21 +1,23 @@
 {
-    "version": "18.1.5",
+    "version": "18.2.4",
     "license": "Shareware",
     "homepage": "https://www.syntevo.com/smartgit",
     "description": "SmartGit is a graphical Git client with support for SVN and Pull Requests for GitHub and Bitbucket. SmartGit runs on Windows, macOS and Linux.",
-    "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-18_1_5.7z",
-    "hash": "cdd20a268e02e0eaa4d3b32be10b9396112318655eb209cdb6acb4715136cd94",
+    "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-18_2_4.7z",
+    "hash": "054d65d905053dee0af481f1eed51f4574cb8a60c5a388fdcfcc20698678ddd8",
     "extract_dir": "SmartGit",
     "bin": [
-        ["bin\\smartgit32.exe", "smartgit32"],
-        ["bin\\smartgit.exe", "smartgit"]
+        [
+            "bin\\smartgit32.exe",
+            "smartgit32"
+        ],
+        [
+            "bin\\smartgit.exe",
+            "smartgit"
+        ]
     ],
-    "persist" : [
-        ".settings"
-    ],
-    "post_install": [
-        "cmd /c rd /Q /S $dir\\git $dir\\jre"
-    ],
+    "persist": ".settings",
+    "post_install": "cmd /c rd /Q /S $dir\\git $dir\\jre",
     "checkver": {
         "url": "https://www.syntevo.com/smartgit/changelog.txt",
         "re": "SmartGit ([\\d.]+)"
