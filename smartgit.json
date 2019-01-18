@@ -8,10 +8,6 @@
     "extract_dir": "SmartGit",
     "bin": [
         [
-            "bin\\smartgit32.exe",
-            "smartgit32"
-        ],
-        [
             "bin\\smartgit.exe",
             "smartgit"
         ]

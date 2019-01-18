@@ -7,12 +7,12 @@
         "64bit": {
             "url": "https://www.princexml.com/download/prince-12.4-win64.zip",
             "hash": "8340f07a1b3d715857e5315ca1ee7f81b8a796d6273a33ff6790df52801fd87f",
-            "extract_dir": "prince-12.2-win64"
+            "extract_dir": "prince-12.4-win64"
         },
         "32bit": {
             "url": "https://www.princexml.com/download/prince-12.4-win32.zip",
             "hash": "a5a55bdbe65f5dd134facd4c988c3393648ed8510936ced675cbff3f483c69e9",
-            "extract_dir": "prince-12.2-win32"
+            "extract_dir": "prince-12.4-win32"
         }
     },
     "bin": "bin/prince.exe",
