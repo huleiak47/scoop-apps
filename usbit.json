@@ -1,11 +1,14 @@
 {
-    "version": "1.75",
+    "version": "1.76",
     "license": "Shareware",
     "homepage": "https://www.alexpage.de/usb-image-tool",
     "url": "http://www.alexpage.de/download/usbit/usbit.zip",
-    "hash": "9df0bedf6e933daeb0976d4e302009920ab383a5b861d9d5ca3efbdeca509d95",
+    "hash": "5226f8c8025cb2ee52b18f6541c008aff7e891e45932e4cbf713e78b95d72b34",
     "bin": [
-        ["USB Image Tool.exe", "usbit"],
+        [
+            "USB Image Tool.exe",
+            "usbit"
+        ],
         "usbitcmd.exe"
     ],
     "checkver": {

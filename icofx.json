@@ -1,14 +1,12 @@
 {
-    "version": "3.2.1",
+    "version": "3.3",
     "license": "Shareware",
     "homepage": "https://icofx.ro",
     "description": "The only tool you will need to edit icons and cursors.",
     "url": "https://icofx.ro/files/icofx_portable.zip",
-    "hash": "bc4db4f3d749bbc334662a468b9d579cfa62da48e1eb25ab1f3921ba0a211ece",
+    "hash": "1adf0434bad24a4db18da8de8a76f3fab25f8146e435a9df59cbabb9d2361b6a",
     "extract_dir": "icofx3",
-    "bin": [
-        "icofx3.exe"
-    ],
+    "bin": "icofx3.exe",
     "checkver": {
         "url": "https://icofx.ro/downloads.html",
         "re": "Version: ([\\d.]+)"
