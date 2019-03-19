@@ -10,10 +10,6 @@
         [
             "bin\\smartgit.exe",
             "smartgit"
-        ],
-        [
-            "bin\\smartgit32.exe",
-            "smartgit32"
         ]
     ],
     "persist": ".settings",
