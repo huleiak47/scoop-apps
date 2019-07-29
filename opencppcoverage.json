@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/OpenCppCoverage/OpenCppCoverage",
     "license": "GNU General Public License v3.0",
-    "version": "0.9.7.0",
+    "version": "0.9.8.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/release-0.9.7.0/OpenCppCoverageSetup-x64-0.9.7.0.exe",
-            "hash": "269e7911338bf0f0f2df6f52c7a19bb70fa288af1cd27736ba7352251da580bd"
+            "url": "https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/release-0.9.8.0/OpenCppCoverageSetup-x64-0.9.8.0.exe",
+            "hash": "6014ec39aea9d44f6a29a970b50fe8c269d93887c3cab9ba154ebd7ec7b777cb"
         },
         "32bit": {
-            "url": "https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/release-0.9.7.0/OpenCppCoverageSetup-x86-0.9.7.0.exe",
-            "hash": "301a342f3cca9f73ac249c541dfa48dbe22a53c3e2c4ce093f66cf2f265fb91a"
+            "url": "https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/release-0.9.8.0/OpenCppCoverageSetup-x86-0.9.8.0.exe",
+            "hash": "04d3f57b3a645e4e38ed772ed1860171939bc36ccc2df2b5c0ac4c0d5c935490"
         }
     },
     "installer": {
@@ -22,11 +22,10 @@
     "uninstaller": {
         "file": "uninst000.exe",
         "args": [
+            
         ]
     },
-    "bin": [
-        "OpenCppCoverage.exe"
-    ],
+    "bin": "OpenCppCoverage.exe",
     "checkver": {
         "url": "https://github.com/OpenCppCoverage/OpenCppCoverage/releases",
         "re": "OpenCppCoverage ([\\d\\.]+)"
